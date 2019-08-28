@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="bootstrap default admin template">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>诊断界面</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<!-- Start global css -->
+		<link rel="stylesheet" href="../css/frame/waves.min.css" />
+		<link rel="stylesheet" href="../css/frame/bootstrap.min.css">
+		<link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css" />
+		<!-- End global css -->
+
+		<!-- Start page plugin css -->
+		<link rel="stylesheet" href="../css/frame/jquery.dataTables.min.css" />
+		<link rel="stylesheet" href="../css/frame/dataTables.bootstrap.min.css" />
+		<!-- End page plugin css -->
+
+		<!-- Start template global css -->
+		<link href="../css/frame/components.min.css" type="text/css" rel="stylesheet" />
+		<!-- End template global css -->
+
+		<!-- Start layout css -->
+		<link rel="stylesheet" href="../css/frame/left_menu_layout.min.css" />
+		<!-- End layout css -->
+	</head>
+
+	<body class="nav-medium">
+		<div class="container body">
+			<div class="main_container">
+
+				<div class="includeHtml" file="frame/left_menu.html"></div>
+				<div class="includeHtml" file="frame/top_navigation.html"></div>
+
+				<!-- Start Contain Section -->
+				<div class="container-fluid right_color">
+					<div class="page-main-header">
+						<!-- Page Title -->
+						<h2 class="page-name-title">患者诊断</h2>
+						<!--  Breadcrumb -->
+						<ol class="breadcrumb">
+							<li>
+								<a href="#">首页</a>
+							</li>
+							<li class="active">我的患者</li>
+							<li class="active">患者诊断</li>
+						</ol>
+					</div>
+					<div class="contain-section">
+						<div class="contain-inner-section">
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+									<!--<div class="section-header">
+										<a href="inspectionDetail.html" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="新增"><i class="fa fa-plus-circle"></i> 新增机构</a>
+									</div>-->
+
+									<div class="section-body">
+										<table class="table" border="1" cellspacing="2" cellpadding="">
+											<tr>
+												<td>姓名</td>
+												<td id="name">张三</td>
+											</tr>
+											<tr>
+												<td>年龄</td>
+												<td id="age">34</td>
+											</tr>
+											<tr>
+												<td>性别</td>
+												<td id="sex">男</td>
+											</tr>
+											<tr>
+												<td>病人ID</td>
+												<td id="pId">123432</td>
+											</tr>
+											<tr>
+												<td>门诊号</td>
+												<td id="mId">22222</td>
+											</tr>
+											</tr>
+											<tr>
+												<td>就诊时间</td>
+												<td id="time"></td>
+											</tr>
+											<tr>
+												<td>诊断详情</td>
+												<td><textarea rows="6"  cols="24"></textarea></td>
+											</tr>
+										</table>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Contain Section -->
+
+				<div class="includeHtml" file="frame/footer.html"></div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="danger-modal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header danger-modal">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+						<h4 class="modal-title">操作提醒</h4>
+					</div>
+					<div class="modal-body">
+						<p>是否要删除本条记录？</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger float-button-light">删除</button>
+						<button type="button" class="btn btn-default float-button-light" data-dismiss="modal">取消</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Start core js -->
+		<script src="../js/frame/jquery.min.js"></script>
+		<script src="../js/frame/html_load.js"></script>
+		<script src="../js/frame/bootstrap.min.js"></script>
+		<script src="../js/frame/waves.min.js"></script>
+		<script src="../js/frame/screenfull.min.js"></script>
+		<script src="../js/frame/jquery.slimscroll.js"></script>
+		<!-- Start core javascript -->
+
+		<!-- Start page plugin js -->
+		<script src="../js/frame/jquery.dataTables.min.js"></script>
+		<script src="../js/frame/dataTables.bootstrap.min.js"></script>
+		<!-- End page plugin js -->
+
+		<!-- Start page js -->
+		<script src="../js/interfaceManager/inspection.js"></script>
+		<!-- End page js -->
+		<script>
+		</script>
+	</body>
+
+</html>

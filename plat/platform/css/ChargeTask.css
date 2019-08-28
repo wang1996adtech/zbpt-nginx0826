@@ -1,0 +1,26 @@
+
+.listtabbox .search { width: 100%; }
+
+.listtabbox .search .subbox { display: inline-block; margin-right: 10px; }
+
+.listtabbox .search .subbox span { float: left; margin-right: 10px;  line-height: 30px; }
+
+.listtabbox .search .subbox .search-input { width: 150px; height: 30px; padding: 0 5px; border: 1px solid #4B526E; margin-right: 20px; }
+.form-inline{
+    color: #fff;
+}
+.fixed-table-pagination .pagination-info{
+    color: black;
+}
+.prev{
+
+}
+.this {
+    width:80px;
+    background: #035BCA;
+    border-radius: 3px;
+
+}
+#Finish{
+    width: 50px;
+}

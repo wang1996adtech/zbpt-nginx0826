@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="bootstrap default admin template">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>血清实验信息界面</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<!-- Start global css -->
+		<link rel="stylesheet" href="../css/frame/waves.min.css" />
+		<link rel="stylesheet" href="../css/frame/bootstrap.min.css">
+		<link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css" />
+		<!-- End global css -->
+
+		<!-- Start page plugin css -->
+		<link rel="stylesheet" href="../css/frame/jquery.dataTables.min.css" />
+		<link rel="stylesheet" href="../css/frame/dataTables.bootstrap.min.css" />
+		<!-- End page plugin css -->
+
+		<!-- Start template global css -->
+		<link href="../css/frame/components.min.css" type="text/css" rel="stylesheet" />
+		<!-- End template global css -->
+
+		<!-- Start layout css -->
+		<link rel="stylesheet" href="../css/frame/left_menu_layout.min.css" />
+		<!-- End layout css -->
+	</head>
+
+	<body class="nav-medium">
+		<div class="container body">
+			<div class="main_container">
+
+				<div class="includeHtml" file="frame/left_menu.html"></div>
+				<div class="includeHtml" file="frame/top_navigation.html"></div>
+
+				<!-- Start Contain Section -->
+				<div class="container-fluid right_color">
+					<div class="page-main-header">
+						<!-- Page Title -->
+						<h2 class="page-name-title">血清实验信息</h2>
+						<!--  Breadcrumb -->
+						<ol class="breadcrumb">
+							<li>
+								<a href="#">首页</a>
+							</li>
+							<li class="active">检验检查</li>
+							<li class="active">血清实验</li>
+						</ol>
+					</div>
+					<div class="contain-section">
+						<div class="contain-inner-section">
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+									<!--<div class="section-header">
+										<a href="inspectionDetail.html" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="新增"><i class="fa fa-plus-circle"></i> 新增机构</a>
+									</div>-->
+
+									<div class="">
+										<table class="table">
+											<thead>
+												<th>序号</th>
+												<th>英文名称</th>
+												<th>项目名称</th>
+												<th>结果</th>
+												<th>提示 单位</th>
+												<th>参考值</th>
+											</thead>
+											<tr>
+												<td>1</td>
+												<td>ATL</td>
+												<td>谷丙转氨酶</td>
+												<td>9.3</td>
+												<td>U/L</td>
+												<td>0-35</td>
+											</tr>
+											<tr>
+												<td>2</td>
+												<td>AST</td>
+												<td>谷草转氨酶</td>
+												<td>18.7</td>
+												<td>U/L</td>
+												<td>0-35</td>
+											</tr>
+											<tr>
+												<td>3</td>
+												<td>S/L</td>
+												<td>谷草/谷丙</td>
+												<td>2.01</td>
+												<td></td>
+												<td>0.5-2</td>
+											</tr>
+											<tr>
+												<td>4</td>
+												<td>GGT</td>
+												<td>谷氨酰转肽酶</td>
+												<td>9.9</td>
+												<td>U/L</td>
+												<td>0-32</td>
+											</tr>
+											<tr>
+												<td>5</td>
+												<td>ALP</td>
+												<td>碱性磷酸酶</td>
+												<td>79.4</td>
+												<td>U/L</td>
+												<td>40-150</td>
+											</tr>
+											</tr>
+											<tr>
+												<td>6</td>
+												<td>TBIL</td>
+												<td>总胆红素</td>
+												<td>11.7</td>
+												<td>umol/L</td>
+												<td>5.1-19</td>
+											</tr>
+											<tr>
+												<td>7</td>
+												<td>DBIl</td>
+												<td>直接胆红素</td>
+												<td>3.1</td>
+												<td>umol/L</td>
+												<td>0-6.8</td>
+											</tr>
+											<tr>
+												<td>8</td>
+												<td>IBIL</td>
+												<td>间接胆红素</td>
+												<td>8.6</td>
+												<td>umol/L</td>
+												<td>1.7-17</td>
+											</tr>
+											<tr>
+												<td>9</td>
+												<td>TP</td>
+												<td>血清总蛋白</td>
+												<td>71.7</td>
+												<td>g/L</td>
+												<td>60-87</td>
+											</tr>
+											<tr>
+												<td>10</td>
+												<td>ALB</td>
+												<td>血清白蛋白</td>
+												<td>41.7</td>
+												<td>g/L</td>
+												<td>35-55</td>
+											</tr>
+											<tr>
+												<td>11</td>
+												<td>GLO</td>
+												<td>球蛋白</td>
+												<td>30</td>
+												<td>g/L</td>
+												<td>20-45</td>
+											</tr>
+											<tr>
+												<td>12</td>
+												<td>A/G</td>
+												<td>白、球蛋白比值</td>
+												<td>1.39</td>
+												<td></td>
+												<td>1.2-2.5</td>
+											</tr>
+											<tr>
+												<td>13</td>
+												<td>TBA</td>
+												<td>总胆汁酸</td>
+												<td>3.8</td>
+												<td>umol/L</td>
+												<td>0-10</td>
+											</tr>
+											<tr>
+												<td>14</td>
+												<td>CHE</td>
+												<td>胆碱酯酶</td>
+												<td>7129.54</td>
+												<td>U/L</td>
+												<td>5000-12000</td>
+											</tr>
+										</table>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Contain Section -->
+
+				<div class="includeHtml" file="frame/footer.html"></div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="danger-modal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header danger-modal">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+						<h4 class="modal-title">操作提醒</h4>
+					</div>
+					<div class="modal-body">
+						<p>是否要删除本条记录？</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger float-button-light">删除</button>
+						<button type="button" class="btn btn-default float-button-light" data-dismiss="modal">取消</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Start core js -->
+		<script src="../js/frame/jquery.min.js"></script>
+		<script src="../js/frame/html_load.js"></script>
+		<script src="../js/frame/bootstrap.min.js"></script>
+		<script src="../js/frame/waves.min.js"></script>
+		<script src="../js/frame/screenfull.min.js"></script>
+		<script src="../js/frame/jquery.slimscroll.js"></script>
+		<!-- Start core javascript -->
+
+		<!-- Start page plugin js -->
+		<script src="../js/frame/jquery.dataTables.min.js"></script>
+		<script src="../js/frame/dataTables.bootstrap.min.js"></script>
+		<!-- End page plugin js -->
+
+		<!-- Start page js -->
+		<script src="../js/interfaceManager/inspection.js"></script>
+		<!-- End page js -->
+		<script>
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html >
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="bootstrap default admin template">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>我的会诊记录</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Start global css -->
+    <link rel="stylesheet" href="../css/frame/waves.min.css" />
+    <link rel="stylesheet" href="../css/frame/bootstrap.min.css">
+    <link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../js/interfaceManager/bootstrapTable/bootstrap-table.css">
+    <link rel="stylesheet" href="../css/frame/left_menu_layout.min.css" />
+    <link href="../css/frame/components.min.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/ChargeTask.css">
+    <link rel="stylesheet" href="../js/frame/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css">
+    <!--end css-->
+</head>
+<body class="nav-medium">
+<div class="container body">
+    <div class="main_container">
+        <div class="includeHtml" file="frame/left_menu.html"></div>
+        <div class="includeHtml" file="frame/top_navigation.html"></div>
+
+        <!-- Start Contain Section -->
+        <div class="container-fluid right_color">
+            <div class="page-main-header">
+                <!-- Page Title -->
+                <h2 class="page-name-title">我的会诊记录</h2>
+                <!--  Breadcrumb -->
+                <ol class="breadcrumb">
+                    <li class="active" ><a  href="inspection.html" style="color:#333">首页</a></li>
+                    <li class="active">远程会诊</li>
+                    <li>
+                        <a>我的会诊记录</a>
+                    </li>
+                </ol>
+            </div>
+            <div class="listtabbox layui-tab">
+                <div class="layui-tab-content">
+                    <div class="search">
+
+                        <div class="subbox">
+                            <span style="color: black">会诊号:</span>
+                            <input name="startTime" id=""  class="layui-input search-input "  style="width: 100px"/>
+                        </div>
+                        <div class="subbox">
+                            <span style="color: black">病人姓名:</span>
+                            <input name="startTime" id=""  class="layui-input search-input  " style="width: 100px"/>
+                        </div>
+                        <div class="subbox">
+                            <span style="color: black">申请时间:</span>
+                            <input name="startTime" id="startTime"  class="layui-input search-input " style="width: 200px"/>
+                        </div>
+                        <div class="subbox">
+                            <button  class="this btn-info btn-sm" id="query" type="button">查询</button>
+                        </div>
+                    </div>
+                    <div class="">
+                        <table  class="table" id="ChargeTable"></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contain Section -->
+
+    <div class="includeHtml" file="frame/footer.html"></div>
+</div>
+
+<!-- Start core js -->
+<script src="../js/frame/jquery.min.js"></script>
+<script src="../js/frame/html_load.js"></script>
+<script src="../js/frame/bootstrap.min.js"></script>
+<script src="../js/frame/waves.min.js"></script>
+<script src="../js/frame/screenfull.min.js"></script>
+<script src="../js/frame/jquery.slimscroll.js"></script>
+<!-- Start core javascript -->
+
+<!-- Start page plugin js -->
+<script src="../js/frame/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
+<script src="../js/frame/bootstrap-datetimepicker/bootstrap-datetimepicker.zh-CN.js"></script>
+<script src="../js/frame/bootstrapTable/bootstrap-table.js"></script>
+<script src="../js/frame/bootstrapTable/bootstrap-table-zh-CN.js"></script>
+<script src="../js/frame/layui/layui.js"></script>
+<!-- End page plugin js -->
+
+<!-- Start page js -->
+<script src="../js/Consultion.js"></script>
+
+<script type="text/javascript">
+    $(".icon-arrow-left").addClass("fa fa-hand-o-left");
+    $(".icon-arrow-right").addClass("fa fa-hand-o-right");
+</script>
+<!-- End page js -->
+</body>
+
+</html>

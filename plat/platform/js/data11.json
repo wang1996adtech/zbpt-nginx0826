@@ -1,0 +1,191 @@
+﻿
+{
+  "total":40,
+  "rows":[
+    {
+    "ApplicationTime": "2017-8-8",
+    "BrName": "李四",
+    "Sex": "男",
+      "Age":"12",
+    "SqHos": "XXX医院",
+    "SqDoctor": "五五",
+    "SqTime": "2017-8-8",
+    "State": "结束"
+  },
+    {
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    }
+    ,{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    },{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    },{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    },{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    },{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    },{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    },{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    },{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    }, {
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    },
+    {
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    }
+  ,{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    },{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    },{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    },{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    },{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    },{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    },{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    },{
+      "ApplicationTime": "2017-8-8",
+      "BrName": "李四",
+      "Sex": "男",
+      "Age":"12",
+      "SqHos": "XXX医院",
+      "SqDoctor": "五五",
+      "SqTime": "2017-8-8",
+      "State": "结束"
+    }
+  ]
+}

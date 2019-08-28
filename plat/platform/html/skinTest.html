@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="bootstrap default admin template">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>敏感肌肤实验</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<!-- Start global css -->
+		<link rel="stylesheet" href="../css/frame/waves.min.css" />
+		<link rel="stylesheet" href="../css/frame/bootstrap.min.css">
+		<link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css" />
+		<!-- End global css -->
+
+		<!-- Start page plugin css -->
+		<link rel="stylesheet" href="../css/frame/jquery.dataTables.min.css" />
+		<link rel="stylesheet" href="../css/frame/dataTables.bootstrap.min.css" />
+		<!-- End page plugin css -->
+
+		<!-- Start template global css -->
+		<link href="../css/frame/components.min.css" type="text/css" rel="stylesheet" />
+		<!-- End template global css -->
+
+		<!-- Start layout css -->
+		<link rel="stylesheet" href="../css/frame/left_menu_layout.min.css" />
+		<!-- End layout css -->
+
+	</head>
+
+	<body class="nav-medium">
+		<div class="container body">
+			<div class="main_container">
+
+				<div class="includeHtml" file="frame/left_menu.html"></div>
+				<div class="includeHtml" file="frame/top_navigation.html"></div>
+
+				<!-- Start Contain Section -->
+				<div class="container-fluid right_color">
+					<div class="page-main-header">
+						<!-- Page Title -->
+						<h2 class="page-name-title">敏感肌肤实验</h2>
+						<!--  Breadcrumb -->
+						<ol class="breadcrumb">
+							<li>
+								<a href="#">首页</a>
+							</li>
+							<li class="active">检验检查</li>
+							<li class="active">敏感肌肤实验</li>
+						</ol>
+					</div>
+					<div class="contain-section">
+						<div class="contain-inner-section">
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+									<!--<div class="section-header">
+										<a href="inspectionDetail.html" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="新增"><i class="fa fa-plus-circle"></i> 新增机构</a>
+									</div>-->
+		
+									<div class="section-body">
+									
+										<table id="datatable-zero" class="display datatable-default">
+											<thead>
+												<tr>
+													<th>序号</th>
+													<th>检测时间</th>
+													<th>检测者</th>
+													<th>患者姓名</th>
+													<th>年龄</th>
+													<th>性别</th>
+													<th>门诊号</th>
+													<th>病人ID</th>
+													<th>检测结果</th>
+													<th width="120px">操作</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>1</td>
+													<td>2019/8/21 13:22:23</td>
+													<td>张烈</td>
+													<td>张三</td>
+													<td>34</td>
+													<td>男</td>
+													<td>100093</td>
+													<td>2019822</td>
+													<td style="color: red;">异常</td>
+													<td>
+														<a href="skilInfo.html"><button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="top" title="查看"><i class="fa fa-file-text-o"></i></button></a>
+													</td>
+												</tr>
+											
+												<tr>
+													<td>2</td>
+													<td>2019/8/21 13:22:23</td>
+													<td>张烈</td>
+													<td>李四</td>
+													<td>39</td>
+													<td>男</td>
+													<td>100093</td>
+													<td>2019822</td>
+													<td>正常</td>
+													<td>
+														<a href="skilInfo.html"><button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="top" title="查看"><i class="fa fa-file-text-o"></i></button></a>
+													</td>
+												</tr>
+													<tr>
+													<td>3</td>
+													<td>2019/8/21 13:22:23</td>
+													<td>张烈</td>
+													<td>王五</td>
+													
+													<td>32</td>
+													<td>男</td>
+													<td>100093</td>
+													<td>2019822</td>
+													<td>正常</td>
+													<td>
+														<a href="skilInfo.html"><button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="top" title="查看"><i class="fa fa-file-text-o"></i></button></a>
+													</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<th>序号</th>
+													<th>检测时间</th>
+													<th>检测者</th>
+													<th>患者姓名</th>
+													<th>年龄</th>
+													<th>性别</th>
+													<th>门诊号</th>
+													<th>病人ID</th>
+													<th>检测结果</th>
+													<th width="120px">操作</th>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End Contain Section -->
+
+				<div class="includeHtml" file="frame/footer.html"></div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="danger-modal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header danger-modal">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+						<h4 class="modal-title">操作提醒</h4>
+					</div>
+					<div class="modal-body">
+						<p>是否要删除本条记录？</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger float-button-light">删除</button>
+						<button type="button" class="btn btn-default float-button-light" data-dismiss="modal">取消</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Start core js -->
+		<script src="../js/frame/jquery.min.js"></script>
+		<script src="../js/frame/html_load.js"></script>
+		<script src="../js/frame/bootstrap.min.js"></script>
+		<script src="../js/frame/waves.min.js"></script>
+		<script src="../js/frame/screenfull.min.js"></script>
+		<script src="../js/frame/jquery.slimscroll.js"></script>
+		<!-- Start core javascript -->
+
+		<!-- Start page plugin js -->
+		<script src="../js/frame/jquery.dataTables.min.js"></script>
+		<script src="../js/frame/dataTables.bootstrap.min.js"></script>
+		<!-- End page plugin js -->
+
+		<!-- Start page js -->
+		<script src="../js/interfaceManager/inspection.js"></script>
+		<!-- End page js -->
+
+	</body>
+
+</html>
